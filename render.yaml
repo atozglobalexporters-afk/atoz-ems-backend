@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: atoz-ems-backend
+    runtime: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: 18.20.0
