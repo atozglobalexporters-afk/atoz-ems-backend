@@ -12,8 +12,7 @@
     "db:seed": "node prisma/seed.js",
     "db:studio": "npx prisma studio",
     "db:reset": "npx prisma migrate reset --force",
-    "build": "echo build done",
-    "postinstall": "npx prisma generate --no-engine"
+    "build": "echo build done"
   },
   "dependencies": {
     "@prisma/client": "^5.10.0",
